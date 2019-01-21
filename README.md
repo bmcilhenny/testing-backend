@@ -1,0 +1,4 @@
+- Dependencies
+  - express, mongoose, bodyParser, morgan, nodemon (add script to package.json `"dev": "nodemon index.js"`), will restart the server when a file is changed instead of having to quit the restart server manually.
+  - install mongodb (https://docs.mongodb.com/manual/tutorial/install-mongodb-on-os-x/)
+  - to use db, open up a terminal tab and run `mongod`
